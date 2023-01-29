@@ -1,0 +1,19 @@
+{
+  "name": "shopify-localization",
+  "description": "A simple library that reference all currencies, languages and countries supported by shopify",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [],
+  "author": "beynar",
+  "license": "ISC",
+  "dependencies": {
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  }
+}
